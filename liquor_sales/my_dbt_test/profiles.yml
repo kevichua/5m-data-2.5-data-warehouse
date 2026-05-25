@@ -7,7 +7,7 @@ liquor_sales: # profile name.
       dataset: liquor_demo
       job_execution_timeout_seconds: 300
       job_retries: 2
-      location: US
+      location: USdbt run
       method: oauth
       priority: interactive
       project: "green-bedrock-469701-s1" # GCP project id
